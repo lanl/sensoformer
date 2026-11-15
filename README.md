@@ -1,6 +1,6 @@
 ![SensOFormer: Foundation Models for Particle Accelerators](docs/assets/sensoformer.gif)
 
-# SensOFormer: Foundation Models for Particle Accelerators
+<h1 align="center">SensOFormer: Foundation Models for Particle Accelerators</h1>
 
 <p align="center">
   <a href="https://arxiv.org/abs/2611.02031"><img src="https://img.shields.io/badge/arXiv-2611.02031-b31b1b" alt="Paper on arXiv"></a>
