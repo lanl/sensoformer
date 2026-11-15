@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper."
+title: "SensOFormer: Foundation Models for Particle Accelerators"
+type: software
+version: 0.1.0
+authors:
+  - family-names: Rautela
+    given-names: Mahindra
+  - family-names: Scheinker
+    given-names: Alexander
+identifiers:
+  - type: url
+    value: "https://arxiv.org/abs/2611.02031"
+    description: "arXiv:2611.02031"
+url: "https://mahindrautela.github.io/sensoformer/"

@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sensoformer"
+version = "0.1.0"
+description = "Foundation models for variable sensor sets in particle accelerators"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+  {name = "Mahindra Rautela"},
+  {name = "Alexander Scheinker"},
+]
+dependencies = [
+  "torch>=2.4",
+  "numpy",
+  "h5py",
+]
+
+[project.urls]
+Paper = "https://arxiv.org/abs/2611.02031"
+Website = "https://mahindrautela.github.io/sensoformer/"
+
+[project.optional-dependencies]
+visualization = ["matplotlib"]
+wandb = ["wandb"]
+dev = ["pytest", "ruff", "build"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]

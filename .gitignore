@@ -1,0 +1,38 @@
+# Data, weights, and experiment artifacts
+datasets/
+data/
+models/
+checkpoints/
+experiments/
+results/
+wandb/
+process_wandb/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+*.csv
+*.npz
+
+# Python and build artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+
+# Environments, editors, and operating systems
+.env
+.env.*
+*.env
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
