@@ -2,15 +2,15 @@
 
 # SensOFormer: Foundation Models for Particle Accelerators
 
-SensOFormer is a denoising masked transformer for multivariate sensor signals. A
-Perceiver-style set encoder and decoder handle variable sensor sets while a compact
-temporal latent models their dynamics.
-
 <p align="center">
   <a href="https://arxiv.org/abs/2611.02031"><img src="https://img.shields.io/badge/arXiv-2611.02031-b31b1b" alt="Paper on arXiv"></a>
   <a href="docs/assets/neurips26_paper_sensoformer.pdf"><img src="https://img.shields.io/badge/Paper-PDF-blue" alt="Paper PDF"></a>
   <a href="https://mahindrautela.github.io/sensoformer/"><img src="https://img.shields.io/badge/Project_Website-SensOFormer-blue" alt="SensOFormer project website"></a>
 </p>
+
+SensOFormer is a denoising masked transformer for multivariate sensor signals. A
+Perceiver-style set encoder and decoder handle variable sensor sets while a compact
+temporal latent models their dynamics.
 
 ## Release scope
 
