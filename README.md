@@ -18,6 +18,10 @@ temporal latent models their dynamics.
 
 - Task-specific fine-tuning pipelines, anomaly-detection and fault-identification heads, research notebooks, generated results, datasets, and pretrained weights are not included. Fine-tuning scripts for three downstream tasks—anomaly detection, cavity identification, and fault identification—are planned for release in the coming weeks.
 
+- Model checkpoints will be coming soon on hugging face.
+
+- Datasets will take time to pass through LANL release.
+
 
 ## Installation
 
