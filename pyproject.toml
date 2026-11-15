@@ -8,9 +8,13 @@ version = "0.1.0"
 description = "Foundation models for variable sensor sets in particle accelerators"
 readme = "README.md"
 requires-python = ">=3.11"
+license = {file = "LICENSE"}
 authors = [
   {name = "Mahindra Rautela"},
   {name = "Alexander Scheinker"},
+]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
 ]
 dependencies = [
   "torch>=2.4",
