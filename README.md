@@ -80,4 +80,4 @@ Hugging Face artifacts are coming soon.
 
 If this code supports your work, cite *SensOFormer: Foundation Models for Particle Accelerators* by Mahindra Rautela and Alexander Scheinker (arXiv:2611.02031). Citation is provided in [CITATION.cff](CITATION.cff).
 
-#### Note: EIDR number O#5133 - SensOFormer. This program is Open-Source under the MIT License.
+#### Note: EIDR number O#5140 - SensOFormer. This program is Open-Source under the MIT License.
