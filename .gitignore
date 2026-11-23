@@ -1,6 +1,5 @@
 # Data, weights, and experiment artifacts
 datasets/
-data/
 models/
 checkpoints/
 experiments/
